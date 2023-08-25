@@ -18,6 +18,11 @@ edite o arquivo .env
 
 na pasta do projeto usa os comandos linux
 ```bash
+#comando para iniciar o vendor do composer
+composer update 
+# ou
+composer init
+
 # comando para iniciar o projeto e visualizar o que acontece
 # usando o docker elimina a necessidade de baixar outros programas
 docker-compose up -d --build
