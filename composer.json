@@ -1,0 +1,17 @@
+{
+    "name": "augusto/lopes",
+    "authors": [
+        {
+            "name": "augusto lopes",
+            "email": "lopes.augusto48@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
