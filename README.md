@@ -14,7 +14,7 @@ usando recursos docker, desenvolvido pensando em linux
 Pré-requisitos: docker, docker-compose, git e composer.
 
 # Como executar o projeto
-edite o arquivo .env
+edite o arquivo mude o .env-exemplo para .env
 
 na pasta do projeto usa os comandos linux
 ```bash
