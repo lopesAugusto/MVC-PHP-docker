@@ -7,7 +7,7 @@ use App\model\crud\crud;
 //usado para armazenar valores
 class entity{
     public static $title         = "titulo exemplo";
-    public static $diretorio     = 'app/resources/view/pages/'; //no site coloca o host antes do app
+    public static $diretorio     = '{$_ENV[DIR]}'; //no site coloca o host antes do app
 
     public static function getAllQuestion()
     {
